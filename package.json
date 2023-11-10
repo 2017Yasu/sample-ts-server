@@ -1,0 +1,14 @@
+{
+  "name": "sample-ts-server",
+  "version": "1.0.0",
+  "description": "Sample TypeScript server",
+  "main": "index.js",
+  "author": "Yasuaki Nakayama",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
