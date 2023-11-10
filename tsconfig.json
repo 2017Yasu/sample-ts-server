@@ -3,5 +3,8 @@
     "module": "CommonJS",
     "strict": true,
     "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
