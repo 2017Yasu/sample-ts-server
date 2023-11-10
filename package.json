@@ -6,9 +6,8 @@
   "author": "Yasuaki Nakayama",
   "license": "MIT",
   "private": false,
-  "type": "module",
   "scripts": {
-    "dev": "ts-node --esm src/main.ts"
+    "dev": "ts-node src/main.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.1",

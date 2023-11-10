@@ -1,8 +1,7 @@
 {
-    "compilerOptions": {
-        "module": "ES2015",
-        "strict": true,
-        "moduleResolution": "Bundler",
-        "rootDir": "src"
-    }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "strict": true,
+    "baseUrl": "./",
+  }
 }
