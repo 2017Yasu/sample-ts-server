@@ -2,13 +2,19 @@
   "name": "sample-ts-server",
   "version": "1.0.0",
   "description": "Sample TypeScript server",
-  "main": "index.js",
+  "main": "src/main.ts",
   "author": "Yasuaki Nakayama",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  },
   "dependencies": {
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
   }
 }
